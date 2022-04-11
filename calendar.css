@@ -1,0 +1,129 @@
+body {
+    background: lightblue;
+}
+
+#calendar{
+    background-image: url("img/image2.jpg");
+    border: 3px solid black;
+}
+
+h1[name="ostore"] {
+    color: white;
+    text-transform: uppercase;
+    font-family: "Lucida Console", "Courier New";
+
+}
+
+h1[name="calendar"] {
+    text-align: center;
+    color: white;
+    text-transform: capitalize;
+    font-family: "Lucida Console", "Courier New";
+}
+
+input[name="logout"] {
+    text-align: center;
+    margin-bottom: 40px;
+    margin-left: 90%;
+    margin: 0 left; 
+}
+
+.line {
+    background-color: black;
+    height: 12px;
+    width: 100%;
+    border: 1px solid  black;
+ }
+
+
+h1[name="message"]{
+    text-align: center;
+    color: black;
+    text-transform: capitalize;
+    font-family: "Lucida Console", "Courier New";
+}
+
+ /* Style tab links */
+.tablink {
+    background-color: #555;
+    color: white;
+    float: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 18%;
+  }
+  
+  .tablink:hover {
+    background-color: #777;
+  }
+  
+  /* Style the tab content (and add height:100% for full page content) */
+  .tabcontent {
+    color: white;
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+  }
+  
+  #Home {background-color: lightblue;}
+  #Add_Client {background-color: lightblue;}
+  #Edit_Client {background-color: lightblue;}
+  #Search_Client {background-color: lightblue;}
+  #Account_Management {background-color: lightblue;}
+  #Calendar {background-color: lightblue;}
+
+* {
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.navtop {
+    background-color: #3b4656;
+    height: 60px;
+    width: 100%;
+    border: 0;
+}
+.navtop div {
+    display: flex;
+    margin: 0 auto;
+    width: 800px;
+    height: 100%;
+}
+.navtop div h1, .navtop div a {
+    display: inline-flex;
+    align-items: center;
+}
+.navtop div h1 {
+    flex: 1;
+    font-size: 24px;
+    padding: 0;
+    margin: 0;
+    color: #ebedee;
+    font-weight: normal;
+}
+.navtop div a {
+    padding: 0 20px;
+    text-decoration: none;
+    color: #ccc4c4;
+    font-weight: bold;
+}
+.navtop div a i {
+    padding: 2px 8px 0 0;
+}
+.navtop div a:hover {
+    color: #eceeeb;
+}
+.content {
+    width: 800px;
+    margin: 0 auto;
+}
+.content h2 {
+    margin: 0;
+    padding: 25px 0;
+    font-size: 22px;
+    border-bottom: 1px solid #ebebeb;
+    color: #666666;
+}

@@ -1,0 +1,140 @@
+body {
+    background: lightblue;
+}
+
+#account{
+    background-image: url("img/image2.jpg");
+    border: 3px solid black;
+}
+
+h1[name="ostore"] {
+    color: white;
+    text-transform: uppercase;
+    font-family: "Lucida Console", "Courier New";
+
+}
+
+h1[name="account"] {
+    text-align: center;
+    color: white;
+    text-transform: capitalize;
+    font-family: "Lucida Console", "Courier New";
+}
+
+input[name="logout"] {
+    text-align: center;
+    margin-bottom: 40px;
+    margin-left: 90%;
+    margin: 0 left; 
+}
+
+.line {
+    background-color: black;
+    height: 10px;
+    width: 100%;
+    border: 1px solid  black;
+ }
+
+
+form[name="form2"] {
+    width: 470px;
+    height: 470px;
+    border: 3px solid black;
+    padding: 10px;
+    background: white;
+    border-radius: 20px;
+    text-align: left;
+    margin: 0 auto; 
+    margin-bottom: 1em;
+}
+
+input[name="submit"] {  
+    background: rgb(40, 82, 219);
+    padding: 10px 15px;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    border: none;
+    margin-left: 85%;
+    margin: 0 left;
+}
+
+button[name="update"] {  
+    background: rgb(40, 82, 219);
+    padding: 10px 15px;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    border: none;
+}
+
+button[name="edit"] {  
+    background: rgb(40, 82, 219);
+    padding: 10px 15px;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    border: none;
+}
+
+form[name="list"]{
+    width: 90%;
+    border: 3px solid black;
+    padding: 20px;
+    background: white;
+    border-radius: 20px;
+    text-align: left;
+    margin: 0 auto; 
+}
+
+.message {
+    background: #F2DEDE;
+    color: #0c0101;
+    padding: 10px;
+    width: 40%;
+    border-radius: 5px;
+    margin: 20px auto;
+    text-align: center;
+ }
+
+ .noUser{
+    background: #F2DEDE;
+    color: #0c0101;
+    padding: 10px;
+    width: 40%;
+    height: 20%;
+    border-radius: 5px;
+    margin: 20px auto;
+    text-align: center;
+ }
+
+ /* Style tab links */
+ .tablink {
+    background-color: #555;
+    color: white;
+    float: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 18%;
+  }
+  .tablink:hover {
+    background-color: #777;
+  }
+  
+  /* Style the tab content (and add height:100% for full page content) */
+  .tabcontent {
+    color: white;
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+  }
+  
+  #Home {background-color: lightblue;}
+  #Add_Client {background-color: lightblue;}
+  #Edit_Client {background-color: lightblue;}
+  #Search_Client {background-color: lightblue;}
+  #Account_Management {background-color: lightblue;}
+  #Calendar {background-color: lightblue;}
